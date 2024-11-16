@@ -10,19 +10,9 @@
             "dest": "/api/index.php"
         }
     ],
-    "builds": [
-        {
-            "src": "public/**",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "api/index.php",
-            "use": "@vercel/php"
-        }
-    ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "true",
+        "APP_DEBUG": "false",
         "APP_URL": "https://your.url.from.vercel.app",
         "APP_KEY": "add API key here from your .env file",
 
